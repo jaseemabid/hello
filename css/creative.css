@@ -153,7 +153,9 @@ header .header-content .header-content-inner p {
   position: relative;
   display: block;
   max-width: 650px;
+  max-height: 250px;
   margin: 0 auto;
+  overflow: hidden;
 }
 .call-to-action h2 {
   margin: 0 auto 20px;
