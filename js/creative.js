@@ -26,6 +26,7 @@
 
     // Mapbox
     L.mapbox.accessToken = 'pk.eyJ1IjoiamFzZWVtYWJpZCIsImEiOiJjaXBjeDFjc3kwMGFmdDhuajVqOTdkemc1In0.d-fO5iyn5u-xGbQYC3eFqA';
-    L.mapbox.map('map', 'mapbox.streets').setView([12.9719, 77.6412], 14);
+    var map = L.mapbox.map('map', 'jaseemabid.0da3cnd2');
+    map.scrollWheelZoom.disable();
 
 })(jQuery); // End of use strict
