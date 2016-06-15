@@ -29,4 +29,13 @@
     var map = L.mapbox.map('map', 'jaseemabid.0da3cnd2');
     map.scrollWheelZoom.disable();
 
+    // Gallery
+    $('.magnific-popup').magnificPopup({
+		type: 'image',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true
+		}
+	});
+
 })(jQuery); // End of use strict
