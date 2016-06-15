@@ -22,6 +22,9 @@
     <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.css'
           rel='stylesheet' />
 
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
   </head>
@@ -128,40 +131,40 @@
         <div class="row no-gutter">
 
           <div class="col-lg-4 col-sm-6">
-            <a href="img/1.jpg" class="portfolio-box">
+            <a href="img/1.jpg" class="portfolio-box magnific-popup">
               <img src="img/1.jpg" class="img-responsive"
                    style="position: relative; top: -35px;">
             </a>
           </div>
 
           <div class="col-lg-4 col-sm-6">
-            <a href="img/2.jpg" class="portfolio-box">
+            <a href="img/2.jpg" class="portfolio-box magnific-popup">
               <img src="img/2.jpg" class="img-responsive" alt="">
             </a>
           </div>
 
           <div class="col-lg-4 col-sm-6">
-            <a href="img/3.jpg" class="portfolio-box">
+            <a href="img/3.jpg" class="portfolio-box magnific-popup">
               <img src="img/3.jpg" class="img-responsive" alt="">
             </a>
           </div>
 
           <div class="col-lg-4 col-sm-6">
-            <a href="img/4.jpg" class="portfolio-box">
+            <a href="img/4.jpg" class="portfolio-box magnific-popup">
               <img src="img/4.jpg" class="img-responsive"
                    style="position: relative; top: -55px;">
             </a>
           </div>
 
           <div class="col-lg-4 col-sm-6">
-            <a href="img/5.jpg" class="portfolio-box">
+            <a href="img/5.jpg" class="portfolio-box magnific-popup">
               <img src="img/5.jpg" class="img-responsive"
                    style="position: relative; top: -55px;">
             </a>
           </div>
 
           <div class="col-lg-4 col-sm-6">
-            <a href="img/6.jpg" class="portfolio-box">
+            <a href="img/6.jpg" class="portfolio-box magnific-popup">
               <img src="img/6.jpg" class="img-responsive">
             </a>
           </div>
@@ -234,6 +237,14 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
+
+    <!-- Magnific Popup -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.magnific-popup').magnificPopup({type:'image'});
+      });
+    </script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
